@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0 0;
+
+        }
+
+        .bar {
+            font-weight: 800;
+            font-size: 45px;
+        }
+
+        .k {
+            color: orange;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 200px;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+        }
+
+        nav li {
+            list-style: none;
+            margin-left: 50px;
+        }
+
+        .button {
+            background-color: orange;
+            color: white;
+            padding: 18px 35px;
+            font-size: 25px;
+            height: 64px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 350px;
+        }
+
+        .text {
+            margin: 0 200px;
+            display: flex;
+            align-items: center;
+        }
+
+        .hi {
+            font-size: 45px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .name {
+            font-weight: 800px;
+            font-size: 85px;
+        }
+
+        .paragraph {
+            color: rgb(118, 116, 116);
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .header {
+            background-color: #FFF8F3;
+            background-image: url("./images/header_bg.png"), url("./images/developer.png");
+            background-repeat: no-repeat;
+            background-position: bottom right, left;
+            background-size: 800px, 75px;
+
+        }
+
+        main {
+            max-width: 1150px;
+            margin: 0 auto;
+        }
+
+        .about {
+            margin-top: 130px;
+            background-color: #FFF8F3;
+            padding: 130px 150px;
+            text-align: center;
+            margin: 60px;
+        }
+
+        .me {
+            margin-bottom: 30px;
+            font-size: 40px;
+        }
+
+        .yes {
+            font-size: 25px;
+        }
+
+        .date {
+            font-size: 30px;
+            display: flex;
+        }
+
+        .information {
+            font-size: 30px;
+        }
+
+        main,
+        .about,
+        .information {
+            font-size: 20px;
+        }
+
+        .information {
+            display: flex;
+margin-top: 40px;
+padding: 30px;
+border: 30px;
+justify-content: space-between;
+        }
+        .third{
+           
+            display: flex;
+            background-size: 20px;
+            background-color: #FFF8F3;
+
+            
+
+        }
+        img{
+            background-image: 10px;
+        }
+        img.one{
+            height: 50px;
+            width: 50px;
+           
+            
+        }
+        .two{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .choklet{
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .three{
+            margin: 5px 50px;
+        }
+        .third{
+            gap: 24px;
+        }
+        .skill{
+            background-color: white;
+            box-shadow: #d68f5d;
+            border-radius: 10px;
+        }
+        .contuct{
+            display: flex;
+            gap: 100px;
+           background-color: #FFF8F3;
+           padding: 130px 200px;
+        }
+        .icon{
+            height: 50px;
+            width: 50px;
+        
+       
+        
+    </style>
+
+<body>
+    <header class="header">
+        <nav>
+            <h2 class="bar">Sha<span class="k">k</span>il 2.0</h2>
+            <ul>
+                <li>Portfolio</li>
+                <li>Blog</li>
+                <li><button class="button">Hire me</button></li>
+            </ul>
+        </nav>
+        <div class="text">
+            <div>
+                <h3 class="hi">Hi, I am </h3>
+                <h1 class="name">Shakil 2.0</h1>
+                <p class="paragraph">This is Shakil Ahmed from Mymensingh I am currently living in Dhaka, Bangladesh.
+                    <br> I am an under graduat student of Norther University Bangladesh. I am a professional Web
+                    developer.
+                </p>
+                <button class="button">Download CV</button>
+            </div>
+            <img src="./shakil.png" alt="">
+           
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <h3 class="me">About Me</h3>
+            <p class="yes">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean
+                and slick websites that provide real value to the end user. Thousands of clients have procured
+                exceptional resulfs while working with me. Delivering work within time and budget which meets clients
+                requirements in our mata.</p>
+
+            <div class="information">
+                <div>
+                    <p>Name</p>
+                    <p>Shakil Ahmed</p>
+                </div>
+                <div>
+                    <p>Email</p>
+                    <p>Openarahmed@gmail.com</p>
+                </div>
+                <div>
+                    <p>Date of birth</p>
+                    <p>09-09-2001</p>
+                </div>
+                <div>
+                    <p>From</p>
+                    <p>Dhaka, Bangadesh</p>
+                </div>
+            </div>
+        </section>
+        <section>
+         <h3 class="choklet">My skills</h3>
+<div  class="third">
+   
+    <div class="skill">
+        <strong><img class="one" src="./images/icons/js.png" fa-1 alt="">
+        <p class="two">venilla JavaSript</p></strong>
+        <p class="three">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+        </p>
+    </div >
+    
+    <div class="skill">
+        <img class="one" src="./images/icons/react.png" alt="">
+        <strong><p class="two">React</p></strong>
+        <p class="three">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+    </div>
+    
+    <div class="skill">
+        <img class="one" src="./images/icons/nodejs.png" alt="">
+        <strong><p class="two">Node.js</p></strong>
+        <p class="three">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+    </div>
+    <div class="skill">
+        <img class="one" src="./images/icons/mongo.png" alt="">
+        <strong><p class="two">MongoDB</p></strong>
+        <p class="three">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+    </div>
+</div>
+           
+        </section>
+        <section>
+            <div class="contuct">
+            <div>
+                <h2>Lets connect</h2>
+                <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <br>
+                <img class="icon" src="./images/icons/facebook.png" alt="">
+                <img class="icon" src="./images/icons/insta.png" alt="">
+                <img class="icon" src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="">
+            </div>
+            <div>
+                <h2>Let's messege me</h2>
+                
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Your name">
+                    <input type="email" name="email" id="email" placeholder="Your email"> 
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                    <input class="button" type="button" value="Submit">
+                </form>
+
+        
+            </div>
+        </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
